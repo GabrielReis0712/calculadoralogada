@@ -41,7 +41,7 @@ listaUser.forEach((item) =>{
 
   
 if(usuario.value == userValid.user && senha.value == userValid.senha){
-  window.location.href = 'https://cdpn.io/zeibarg1/debug/GREMYKe/YvkgOwdYPqKk'
+  window.location.href = 'https://zeibarg.github.io/calc/'
   
   let token = Math.random().toString(16).substr(2)
   localStorage.setItem('token', token)
